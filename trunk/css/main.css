@@ -1,0 +1,16 @@
+.blue {
+    color: #5AAFB7;
+}
+.red {
+    color: #e8174e;
+}
+.green {
+    color: #a8e632;
+}
+figure img {
+    width: 50%;
+}
+.off-uppercase,
+h2.off-uppercase {
+    text-transform: none;
+}
