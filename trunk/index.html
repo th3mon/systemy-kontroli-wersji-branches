@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>reveal.js - The HTML Presentation Framework</title>
+        <title>trunk branch switch merge tag</title>
 
         <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
         <meta name="author" content="Hakim El Hattab">
@@ -32,14 +32,21 @@
     </head>
 
     <body>
+        <div class="blackBackgroundColor blackBackgroundColor-hidden"></div>
 
         <div class="reveal">
 
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
                 <section>
-                    <h1>branche<br>w<br>SVN &amp; GIT</h1>
-                    <h3>Czyli jak się nie zgubić w lesie...</h3>
+                    <h1>
+                        <div>trunk</div>
+                        <div class="blue">branch</div>
+                        <div class="red">switch</div>
+                        <div class="green">merge</div>
+                        <div>tag</div>
+                    </h1>
+                    <h3 class="green">Czyli jak się nie zgubić w lesie...</h3>
                     <p>
                         <small>Created by <a class="roll" href="https://github.com/th3mon"><span data-title="Przemysław Szelenberger aka th3mon">Przemysław Szelenberger aka th3mon</span></a> / <a class="roll" href="https://twitter.com/th3mon"><span data-title="@th3mon">@th3mon</span></a></small>
                     </p>
@@ -86,7 +93,7 @@
                     </figure>
                 </section>
                 <section>
-                    <h2>Rozszerzona struktura</h2>
+                    <h2>Rozszerzona<br>struktura</h2>
                     <ul>
                         <li>_dev <span class="blue fragment" data-fragment-index="0">dla "słiczowania" (switch)</span></li>
                         <li>modules <span class="blue fragment" data-fragment-index="1">łatwy dostęp do kawałków mPortal.js</span></li>
@@ -94,24 +101,39 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>Po co?</h2>
-                    <ul>
-                        <li><span class="green">struktura</span> <span class="blue fragment" data-fragment-index="0">pomaga się odnaleźć</span></li>
-                        <li><span class="green">merge</span> & <span class="green">switch</span> <span class="blue fragment" data-fragment-index="1">dodawanie/wycofywanie -> trunk</span></li>
-                        <li><span class="green">tag <span class="blue fragment" data-fragment-index="2">produkcja</span></span> </li>
-                    </ul>
+                    <section>
+                        <h2>Po co?</h2>
+                        <ul>
+                            <li><span class="green">struktura</span> <span class="blue fragment" data-fragment-index="0">pomaga się odnaleźć</span></li>
+                            <li><span class="green">merge</span> & <span class="green">switch</span> <span class="blue fragment" data-fragment-index="1">dodawanie/wycofywanie -> trunk</span></li>
+                            <li><span class="green">tag <span class="blue fragment" data-fragment-index="2">produkcja</span></span> </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>
+                            <div>Przykład</div>
+                            <div>cykl życia branch'a</div>
+                        </h2>
+                        <figure>
+                            <a href="images/svn-branch-example.gif" target="_blank"><img class="width-40p" src="images/svn-branch-example.gif" alt="Przykład: cykl życia branch'a" target="_blank"></a>
+                        </figure>
+                    </section>
                 </section>
                 <section>
-                    <section>
-                        <h2>GIT</h2>
-                        <p>
-                            <span class="red">master </span>
-                            >
-                            <span class="blue">branch </span>
-                            >
-                            <span class="green">merge</span>
-                        </p>
-                    </section>
+                    <h2>GIT</h2>
+                    <p>
+                        <span class="red">master </span>
+                        >
+                        <span class="blue">branch </span>
+                        >
+                        <span class="green">merge</span>
+                    </p>
+                    <p class="fragment" data-fragment-index="0"><span class="blue">onSwitch</span> all the time</p>
+                </section>
+                <section data-state="blackBackgroundColor">
+                    <h2 class="con"><span>Congratulations!</span></h2>
+                    <h2 class="achievement achievement-svn achievement-hidden"><span>Achievement unlocked<br>svn</span></h2>
+                    <h2 class="achievement achievement-git achievement-hidden"><span>Achievement unlocked<br>git</span></h2>
                 </section>
             </div>
 
@@ -147,6 +169,7 @@
             });
 
         </script>
+        <script src="js/main.js"></script>
 
     </body>
 </html>

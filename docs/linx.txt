@@ -1,0 +1,5 @@
+https://www.google.pl/search?q=sv+branches&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:pl:official&client=firefox-a&channel=fflb#client=firefox-a&hs=qPm&rls=org.mozilla:pl:official&channel=fflb&q=svn+branches&spell=1&sa=X&ei=opuLUb-uB4a54ATAw4HQCg&ved=0CCwQvwUoAA&bav=on.2,or.r_cp.r_qf.&bvm=bv.46226182,d.bGE&fp=3725c31b0c2202fd&biw=1885&bih=1007
+
+http://bazawiedzy.cichaprzystan.org/5/sposob-pracy-na-subversion-branche-tagi-etc/
+
+http://svnbook.red-bean.com/en/1.7/svn.branchmerge.tags.html

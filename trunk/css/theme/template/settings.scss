@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
 // Base settings for all themes that can optionally be
 // overridden by the super-theme
 
@@ -10,13 +11,16 @@ $mainFontSize: 36px;
 $mainColor: #eee;
 
 // Headings
-$headingFont: 'League Gothic', Impact, sans-serif;
+$headingFont: 'Merriweather Sans', Trebuchet MS, Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 0.9em;
 $headingLetterSpacing: 0.02em;
 $headingTextTransform: uppercase;
 $headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
 $heading1TextShadow: $headingTextShadow;
+
+// Paragraphs
+$paragraphFont: 'Limelight', Trebuchet MS, Impact, sans-serif;
 
 // Links and actions
 $linkColor: #13DAEC;
