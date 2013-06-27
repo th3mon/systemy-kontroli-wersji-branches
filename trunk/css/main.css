@@ -10,6 +10,24 @@ body .green,
 .green {
     color: #a8e632;
 }
+body .yellow,
+.yellow {
+    color: yellow;
+}
+@-moz-keyframes pulse {0% {color: #e8174e;} 25% {color: #a8e632;} 50% {color: yellow;} 100% {color: #5AAFB7;}}
+@-webkit-keyframes pulse {0% {color: #e8174e;} 25% {color: #a8e632;} 50% {color: yellow;} 100% {color: #5AAFB7;}}
+@-o-keyframes pulse {0% {color: #e8174e;} 25% {color: #a8e632;} 50% {color: yellow;} 100% {color: #5AAFB7;}}
+@-ms-keyframes pulse {0% {color: #e8174e;} 25% {color: #a8e632;} 50% {color: yellow;} 100% {color: #5AAFB7;}}
+@-keyframes pulse {0% {color: #e8174e;} 25% {color: #a8e632;} 50% {color: yellow;} 100% {color: #5AAFB7;}}
+body .animation,
+.animation {
+    color: #5AAFB7;
+    -moz-animation: pulse 1s linear infinite alternate;
+    -webkit-animation: pulse 1s linear infinite alternate;
+    -o-animation: pulse 1s linear infinite alternate;
+    -ms-animation: pulse 1s linear infinite alternate;
+    animation: pulse 1s linear infinite alternate;
+}
 figure img {
     width: 50%;
 }
